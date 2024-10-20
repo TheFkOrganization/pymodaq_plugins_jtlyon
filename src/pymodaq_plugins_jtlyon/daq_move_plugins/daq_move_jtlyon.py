@@ -128,10 +128,10 @@ class DAQ_Move_JtLyon(DAQ_Move_base):
             False if initialization failed otherwise True
         """
         raise NotImplemented  # TODO when writing your own plugin remove this line and modify the ones below
-        self.ini_stage_init(slave_controller=controller)  # will be useful when controller is slave
+        # self.ini_stage_init(slave_controller=controller)  # will be useful when controller is slave
 
         if self.is_master:  # is needed when controller is master
-            self.controller = PythonWrapperOfYourInstrument(arg1, arg2, ...) #  arguments for instantiation!)
+            # self.controller = PythonWrapperOfYourInstrument(arg1, arg2, ...) #  arguments for instantiation!)
             # todo: enter here whatever is needed for your controller initialization and eventual
             #  opening of the communication channel
 
