@@ -7,7 +7,7 @@ package-url = 'https://github.com/TheFkOrganization/pymodaq_plugins_jtlyon'
 description = 'some word about your plugin'
 
 author = 'Author Name'
-author-email = 'Author email'
+author-email = 'Author@email.com'
 license = 'MIT'
 
 [plugin-install]
